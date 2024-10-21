@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Creativo</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="module" src="./js/main.js" defer></script>
+</head>
+
+<body>
+    <div class="space-background"></div>
+        <div class="stars"></div>
+        <div class="twinkling"></div>
+    </div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <h1 class="animate-text">Bienvenido a mi Portafolio</h1>
+            <p class="animate-text">Soy un desarrollador creativo</p>
+        </section>
+
+        <section id="sobre-mi">
+            <h2>Sobre Mí</h2>
+            <div class="skill-container">
+                <div class="skill" data-skill="HTML">HTML</div>
+                <div class="skill" data-skill="CSS">CSS</div>
+                <div class="skill" data-skill="JavaScript">JavaScript</div>
+            </div>
+        </section>
+
+        <section id="proyectos">
+            <h2>Mis Proyectos</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="/placeholder.svg?height=200&width=300" alt="Proyecto 1">
+                    <h3>Proyecto 1</h3>
+                    <p>Descripción del proyecto 1</p>
+                </div>
+                <div class="project-card">
+                    <img src="/placeholder.svg?height=200&width=300" alt="Proyecto 2">
+                    <h3>Proyecto 2</h3>
+                    <p>Descripción del proyecto 2</p>
+                </div>
+                <div class="project-card">
+                    <img src="/placeholder.svg?height=200&width=300" alt="Proyecto 3">
+                    <h3>Proyecto 3</h3>
+                    <p>Descripción del proyecto 3</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contáctame</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Nombre" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mi Portafolio. Todos los derechos reservados.</p>
+    </footer>
+    <div id="particles-js"></div>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
